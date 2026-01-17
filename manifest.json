@@ -1,0 +1,21 @@
+{
+  "name": "Hyder Weather App",
+  "short_name": "Weather",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#56ccf2",
+  "theme_color": "#4facfe",
+  "description": "Smart weather app with live data, tips and animations",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1116/1116453.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1116/1116453.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
