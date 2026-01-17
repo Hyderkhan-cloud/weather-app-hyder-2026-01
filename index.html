@@ -2,26 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Hyder Weather App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🌈hyder Weather App</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
- <h1 class="app-title">Hyder Weather App</h1>
- <div class="weather-box">
-    <p id="temp">-- °C</p>
-    <button onclick="getWeather()">Get Weather</button>
-  </div>
 </head>
-  <body>
+
+<body>
+
   <div class="container">
     <h2>🌈 Weather Detector</h2>
+
     <div class="search-box">
-      <input type="text" id="cityInput" placeholder="Enter city name..." onkeypress="handleEnter(event)">
+      <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter city name"
+        onkeypress="handleEnter(event)"
+      >
       <button onclick="getWeather()">🔍</button>
     </div>
-    <div class="loading" id="loading" style="display:none;">⏳ Loading...</div>
-    <div class="weather-icon" id="weatherIcon">☀️</div>
-    <div class="result" id="weatherResult">Type a city to see weather 🌍</div>
+
+    <div id="loading" class="loading" style="display:none;">
+      Loading weather...
+    </div>
+
+    <div id="weatherIcon" class="weather-icon"></div>
+    <div id="weatherResult" class="result"></div>
   </div>
+
+  <!-- JS -->
   <script src="script.js"></script>
+
 </body>
 </html>
