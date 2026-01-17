@@ -2,7 +2,7 @@
    Hyder Weather App – 2026
    ================================ */
 
-const API_KEY = https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+const API_KEY = ec1776be68043c19eda8cc08f631003d
 
 function handleEnter(event) {
   if (event.key === "Enter") {
